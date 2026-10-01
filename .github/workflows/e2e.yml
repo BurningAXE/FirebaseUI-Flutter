@@ -34,7 +34,7 @@ jobs:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
         with:
           persist-credentials: false
-      - uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020
         name: Install Node.js
         with:
           node-version: "22"
@@ -99,7 +99,7 @@ jobs:
         with:
           # Required for some `pod` commands
           persist-credentials: true # zizmor: ignore[artipacked]
-      - uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020
         name: Install Node.js
         with:
           node-version: "22"
@@ -198,7 +198,7 @@ jobs:
         with:
           # Required for some `pod` commands
           persist-credentials: true # zizmor: ignore[artipacked]
-      - uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020
         name: Install Node.js
         with:
           node-version: "22"
